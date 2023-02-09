@@ -1,24 +1,51 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width" />
-    <title>hello</title>
-    <base href="/" />
-    <link rel="icon" href="favicon.ico" />
-    <link type="text/css" rel="stylesheet" href="main.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Cocnut's Hangout</title>
   </head>
   <body>
+    <header>
+      <h1>Welcome to Coconut's Hangout</h1>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="#about" class="righty">About</a></li>
+        <li><a href="#photos">Photos</a></li>
+        <li><a href="#contact" class="lefty">Contact</a></li>
+      </ul>
+    </nav>
     <main>
-      <img src="logo2.svg" alt="DFINITY logo" />
-      <br />
-      <br />
-      <form action="#">
-        <label for="name">Enter your name: &nbsp;</label>
-        <input id="name" alt="Name" type="text" />
-        <button type="submit">Click Me!</button>
-      </form>
-      <section id="greeting"></section>
+      <section id="about">
+        <h2 class="about-text-header">About</h2>
+        <p class="about-text">This website is a tribute to the amazing hamster named Coconut. She loved sunflower seeds and hanging out. She never bit a human and wasn't shy of cuddles. If you were having a bad day, she'd be the first to comfort you. She was born October 2020, and passed in the winter of 2022. To the best hamster that ever lived, Coconut, we love you.</p>
+        <p class="about-text">She loved sunflower seeds and hanging out. She never bit a human and wasn't shy of cuddles. If you were having a bad day, she'd be the first to comfort you.</p>
+        <p class="about-text">She was born October 2020, and passed in the winter of 2022.</p>
+        <p class="about-text-hamster">To the best hamster that ever lived, Coconut, we love you!</p>
+      </section>
+      <section id="photos">
+        <h2 class="about-text-header">Coconut's Archive</h2> 
+        <div class="photo-grid">
+          <img src="oie_oie_glitters.gif" alt="">
+          <img src="hamster-bg.gif" alt="">
+          <img src="https://via.placeholder.com/150" alt="">
+          <img src="https://via.placeholder.com/150" alt="">
+          <img src="https://via.placeholder.com/150" alt="">
+          <img src="https://via.placeholder.com/150" alt="">
+          <img src="https://via.placeholder.com/150" alt="">
+          <img src="https://via.placeholder.com/150" alt="">
+          <img src="https://via.placeholder.com/150" alt="">
+        </div>
+      </section>
+      <section id="contact">
+        <h2 class="text-center">Contact</h2>
+        <p class="text-center">If you have any questions or comments about this website, please don't hesitate to reach out. You can send me an email at <a href="mailto:HamsterKeeper@yopmail.com">HamsterKeeper@yopmail.com</a>.</p>
+      </section>
     </main>
+    <footer>
+      <p>&copy; Cocnut the hamster</p>
+    </footer>
   </body>
 </html>
