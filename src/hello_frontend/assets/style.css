@@ -110,3 +110,76 @@ footer {
   margin-bottom: 2000px;
   position:absolute;
 }
+
+
+.neon-button {
+  padding: 10px 20px;
+  border-radius: 20px;
+  color: black;
+  background-color: #ff0080;
+  box-shadow: 0 0 10px #ff0080, 0 0 20px #ff0080, 0 0 30px #ff0080, 0 0 40px #ff0080;
+  border:#333;
+  outline: none;
+  transition: all 0.5s ease-out;
+  margin-left: 1250px;
+  margin-bottom: 5px;
+  position: absolute;
+  content: Hamster Faucet;
+}
+
+
+.neon-button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 0 50px #ff0080, 0 0 80px #ff0080, 0 0 100px #ff0080, 0 0 150px #ff0080;
+  content: Coming Soon!;
+}
+
+.neon-button:active {
+  transform: translateY(2px);
+  box-shadow: 0 0 20px #ff0080, 0 0 15px #ff0080, 0 0 10px #ff0080, 0 0 5px #ff0080;
+}
+
+
+/*
+.neon-button::before {
+  padding: 10px 20px;
+  border-radius: 20px;
+  color: black;
+  background-color: #ff0080;
+  box-shadow: 0 0 10px #ff0080, 0 0 20px #ff0080, 0 0 30px #ff0080, 0 0 40px #ff0080;
+  border:#333;
+  outline: none;
+  transition: all 0.5s ease-out;
+  margin-left: 1250px;
+  margin-bottom: 5px;
+  position: absolute;
+  content: 'CHANGE';
+  transition: all .3s;
+}
+.neon-button::after {
+  padding: 10px 20px;
+  border-radius: 20px;
+  color: black;
+  background-color: #ff0080;
+  box-shadow: 0 0 10px #ff0080, 0 0 20px #ff0080, 0 0 30px #ff0080, 0 0 40px #ff0080;
+  border:#333;
+  outline: none;
+  transition: all 0.5s ease-out;
+  margin-left: 1250px;
+  margin-bottom: 5px;
+  position: absolute;
+  content: 'TEXT';
+  transition: all .3s;
+}
+
+
+.neon-button:hover::before {
+  top: -60px;
+  transform: translateY(-3px);
+  box-shadow: 0 0 50px #ff0080, 0 0 80px #ff0080, 0 0 100px #ff0080, 0 0 150px #ff0080;
+  content: Coming Soon!;
+}
+.neon-button:hover::after {
+  top: 0;
+}
+*/
