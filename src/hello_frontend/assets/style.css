@@ -114,12 +114,12 @@ footer {
 
 .neon-button {
   padding: 10px 20px;
-  border-radius: 20px;
+  border-radius: 25px;
   color: black;
   background-color: #ff0080;
   box-shadow: 0 0 10px #ff0080, 0 0 20px #ff0080, 0 0 30px #ff0080, 0 0 40px #ff0080;
   border:#333;
-  outline: none;
+  outline:#333;
   transition: all 0.5s ease-out;
   margin-left: 1250px;
   margin-bottom: 5px;
